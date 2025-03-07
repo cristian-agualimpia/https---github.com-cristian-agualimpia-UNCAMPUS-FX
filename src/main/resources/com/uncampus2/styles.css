@@ -1,0 +1,104 @@
+/* Main styles for Universidad Nacional de Colombia application */
+
+/* Colors */
+.root {
+    -fx-background-color: white;
+    -fx-font-family: "Arial"; /* Fallback font if Ancizar is not available */
+}
+
+/* Title styling */
+.title-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f8f8f8; /* UN institutional green */
+}
+
+/* Header container */
+.header-container {
+    -fx-background-color: #2D9C2F;
+    -fx-padding: 10px;
+}
+
+/* Labels in the form */
+.form-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+/* ComboBoxes */
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #2D9C2F;
+    -fx-border-radius: 3px;
+}
+
+.combo-box:focused {
+    -fx-border-color: #1D7A1F;
+    -fx-border-width: 2px;
+}
+
+.combo-box .list-cell:selected {
+    -fx-text-fill: #2D9C2F;
+    -fx-font-weight: bold;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #2D9C2F;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-padding: 8px 15px;
+    -fx-border-radius: 3px;
+    -fx-background-radius: 3px;
+}
+
+.button:hover {
+    -fx-background-color: #1D7A1F;
+}
+
+.button:pressed {
+    -fx-background-color: #135C15;
+}
+
+/* ListView for route display */
+.list-view {
+    -fx-background-color: white;
+    -fx-border-color: #2D9C2F;
+    -fx-border-width: 2px;
+    -fx-border-radius: 3px;
+}
+
+.list-view .list-cell {
+    -fx-padding: 8px;
+    -fx-border-color: transparent transparent #E0E0E0 transparent;
+}
+
+.list-view .list-cell:selected {
+    -fx-background-color: #E8F5E9;
+    -fx-text-fill: #2D9C2F;
+}
+
+.list-view .list-cell:filled:hover {
+    -fx-background-color: #F1F8E9;
+}
+
+/* Route section title */
+.section-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2D9C2F;
+}
+
+/* Footer */
+.footer {
+    -fx-background-color: #2D9C2F;
+    -fx-padding: 5px;
+    -fx-alignment: center;
+}
+
+.footer-text {
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+}
